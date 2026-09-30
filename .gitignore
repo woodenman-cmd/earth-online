@@ -1,0 +1,12 @@
+# Python 缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+# 环境变量——即使现在没真 key,以后 .env 一创建就会被忽略,防患于未然
+.env
+# 构建产物(打包 exe 生成的垃圾)
+build/
+dist/
+*.spec
+# 个人存档(玩家数据,不属于代码)
+storage/
